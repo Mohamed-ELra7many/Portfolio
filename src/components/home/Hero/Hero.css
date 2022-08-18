@@ -1,0 +1,29 @@
+.hero{
+    position: relative;
+}
+.hero::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url("./home-bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+    z-index: -1;
+}
+.hero .hero-container{
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.hero .hero-container h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--primaryColor);
+}
+
+@media (max-width:768px) {
+    
+}

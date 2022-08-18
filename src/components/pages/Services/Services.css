@@ -1,0 +1,26 @@
+.services{
+    height: auto;
+}
+.services h3{
+    color: var(--primaryColor);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.services .content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+.services .box{
+    background-color: var(--primaryBackground);
+    padding: 35px;
+    border-radius: 15px;
+}
+.services .box i{
+    color: var(--primaryColor);
+    font-size: 25px;
+}
+.services .box h4{
+    margin-top: 20px;
+}

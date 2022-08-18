@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primaryBackground: #212222;
+  --secondaryBackground: #2f3030;
+  --primaryColor: #e0a80d;
+  --greyDark: #7d8792;
+  --headingColor: #2d2e2e;
+  --white: #fff;
+  --black: #000;
+  --sliver: #bac8d3;
+}
+
+body {
+  background-color: var(--headingColor);
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: var(--greyDark);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: var(--primaryColor);
+}
+
+p {
+  color: var(--sliver);
+  font-size: 15px;
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.flexsb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 17px;
+  background-color: var(--primaryColor);
+  color: var(--white);
+  padding: 15px 50px;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.fontSize {
+  font-size: 20px;
+}
+
+/* .primaryBtn {
+  
+} */
+.primaryBtn {
+  background-color: transparent;
+  border: 2px solid var(--primaryColor);
+  padding: 10px;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.primaryBtn:hover {
+  background-color: var(--primaryColor);
+  color: #fff;
+}
+
+section {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: var(--primaryColor);
+}
+
+@media (max-width:768px) {
+  .hero {
+    height: 65vh;
+  }
+
+  .hero .hero-container {
+    max-width: 80%;
+  }
+
+  .hero .hero-container h1 {
+    font-size: 30px !important;
+  }
+
+  .hero::after {
+    background-size: cover;
+    object-fit: cover;
+    height: 60vh !important;
+  }
+  section {
+    height: auto;
+    padding-top: 50px;
+  }
+  .services .box{
+    padding: 15px !important;
+  }
+  .counter .container{
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .contact .flexsb,
+  .about .flex {
+    flex-direction: column;
+  }
+  .right,
+  .left {
+    width: 100% !important;
+  }
+}

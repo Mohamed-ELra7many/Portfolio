@@ -1,0 +1,12 @@
+
+.about .left{
+    width: 35%;
+    margin-right: 30px;
+}
+.about .left img{
+    width: 100%;
+    margin-top: 10px;
+}
+.about .right{
+    width: 65%;
+}
