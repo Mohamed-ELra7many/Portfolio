@@ -113,6 +113,7 @@ section {
 @media (max-width:768px) {
   .hero {
     height: 65vh;
+    padding-top: 0px;
   }
 
   .hero .hero-container {
