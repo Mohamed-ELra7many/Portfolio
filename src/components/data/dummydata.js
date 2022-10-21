@@ -171,6 +171,22 @@ export const portfolio = [
   },
   {
     id: 4,
+    cover: "../images/port/landd.png",
+    name: "Brand",
+    category: "BUSINESS",
+    title: "LAND",
+    link : "https://land-coral.vercel.app/"
+  },
+  {
+    id: 5,
+    cover: "../images/port/ebusines.png",
+    name: "Brand",
+    category: "BUSINESS",
+    title: "eBUSINESS",
+    link : "https://business-ten.vercel.app/"
+  },
+  {
+    id: 6,
     cover: "../images/port/ecom-stor-riho.png",
     name: "Brand",
     category: "ECOMMERCE",
@@ -178,7 +194,15 @@ export const portfolio = [
     link : "https://ecom-stor.vercel.app/"
   },
   {
-    id: 5,
+    id: 7,
+    cover: "../images/port/Yumy.png",
+    name: "Brand",
+    category: "RESTURANT",
+    title: "YUMMY",
+    link : "https://yummy-restaurant.vercel.app/",
+  },
+  {
+    id: 8,
     cover: "../images/port/softy.png",
     name: "Brand",
     category: "BUSINESS",
@@ -186,7 +210,7 @@ export const portfolio = [
     link : "https://softy-rho.vercel.app/"
   },
   {
-    id: 6,
+    id: 9,
     cover: "../images/port/level.png",
     name: "Brand",
     category: "TOURISM",
